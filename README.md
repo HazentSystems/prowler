@@ -139,6 +139,7 @@ cd src/backend
 python -m celery -A config.celery worker -l info -E
 ```
 
+
 **Commands to run the API Scheduler**
 
 ``` console
