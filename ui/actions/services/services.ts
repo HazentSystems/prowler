@@ -90,7 +90,7 @@ export const getServices = async ({}) => {
         fail_findings: failFindings,
       });
     } catch (error) {
-      console.error(`Error fetching data for service ${service.id}:`, error);
+      console.error("Error fetching data for service:", service.id, error);
     }
   }
 
